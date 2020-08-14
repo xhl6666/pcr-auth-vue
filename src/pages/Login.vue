@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    <q-dialog v-model="alert" persistent>
+    <q-dialog v-model="alert" v-on:hide="onHide"><!--allow input box can be hide-->
       <q-card class="flex flex-center">
         <q-card-section>
           <div class="text-h6">请输入管理员密码</div>
