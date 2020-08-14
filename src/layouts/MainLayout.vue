@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Hoshino授权管理系统
+          PurinAuth
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
@@ -28,7 +28,7 @@
           header
           class="text-grey-8"
         >
-          导航
+          目录
         </q-item-label>
         <EssentialLink
           v-for="link in essentialLinks"
