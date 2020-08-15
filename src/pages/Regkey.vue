@@ -69,9 +69,6 @@ import { LocalStorage } from 'quasar'
 export default {
   data () {
     return {
-      pagination: {
-        rowsPerPage: 50 // edit rows per page being displayed
-      },
       filter: '',
       selected: [],
       columns: [
